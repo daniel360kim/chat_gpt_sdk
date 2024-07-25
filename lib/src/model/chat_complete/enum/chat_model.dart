@@ -21,6 +21,10 @@ class Gpt4ChatModel extends ChatModel {
   Gpt4ChatModel() : super(model: kChatGpt4);
 }
 
+class Gpt4OMiniChatModel extends ChatModel {
+  Gpt4OMiniChatModel() : super(model: kGpt4oMini);
+}
+
 class Gpt40314ChatModel extends ChatModel {
   Gpt40314ChatModel() : super(model: kChatGpt40314);
 }
